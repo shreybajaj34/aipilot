@@ -1,5 +1,9 @@
 # AI CareerPilot 🚀
-> **Navigate Your Career. Powered by AI.**
+> **Navigate Your Career. Powered by AI.**  
+> **Official Hackathon Project by Team Career Catalyst: Aarav Goyal & Shrey Bajaj**
+
+[![Team](https://img.shields.io/badge/Team-Career_Catalyst-cyan?style=flat)](https://github.com/)
+[![Architects](https://img.shields.io/badge/Architects-Aarav_Goyal_&_Shrey_Bajaj-violet?style=flat)](https://github.com/)
 
 [![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=flat&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat&logo=typescript)](https://www.typescriptlang.org/)
@@ -123,4 +127,9 @@ npm start
 - **Upload Restrictions:** File validation strictly restricts uploads to PDFs under 5MB.
 
 ---
-*Built with ❤️ for online hackathon excellence.*
+## 👥 Team Career Catalyst
+- **Aarav Goyal** — Lead Full-Stack Architect & AI Systems (Next.js, Gemini API, Zod, System Design)
+- **Shrey Bajaj** — Product Architect & Cloud/Data Engineering (Supabase PostgreSQL, RLS, Recharts, ATS Heuristics)
+
+---
+*Built with ❤️ by Team Career Catalyst for online hackathon excellence.*

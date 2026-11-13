@@ -58,7 +58,7 @@ export function Sidebar() {
                   PRO
                 </span>
               </span>
-              <span className="text-xs text-slate-400">Career Intelligence</span>
+              <span className="text-[10px] text-violet-400 font-medium">Team Career Catalyst</span>
             </div>
           )}
         </Link>
@@ -112,7 +112,7 @@ export function Sidebar() {
         })}
       </div>
 
-      {/* AI Assistant Banner */}
+      {/* AI Assistant & Team Banner */}
       {!collapsed && (
         <div className="p-3 m-3 rounded-xl bg-gradient-to-br from-violet-950/40 to-slate-900/90 border border-violet-500/20 text-xs">
           <div className="flex items-center gap-2 text-violet-300 font-semibold mb-1">
@@ -120,7 +120,10 @@ export function Sidebar() {
             Gemini 1.5 Pro Enabled
           </div>
           <p className="text-slate-400 text-[11px] leading-relaxed">
-            Personalized ATS auditing & interactive interview coaching active.
+            Team Career Catalyst Project
+          </p>
+          <p className="text-[10px] text-cyan-400 font-medium mt-1">
+            Aarav Goyal & Shrey Bajaj
           </p>
         </div>
       )}

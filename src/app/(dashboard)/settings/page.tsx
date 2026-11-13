@@ -98,6 +98,31 @@ export default function SettingsPage() {
             </CardContent>
           </Card>
 
+          {/* Project & Team Ownership Card */}
+          <Card className="border-violet-500/30 bg-gradient-to-br from-violet-950/20 to-slate-900/60">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm flex items-center gap-2 text-violet-300">
+                <Sparkles className="h-4 w-4 text-violet-400" /> Project & Team Ownership
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-3 text-xs">
+              <div className="p-3 rounded-lg bg-slate-950/80 border border-slate-800 space-y-2">
+                <div className="flex justify-between items-center">
+                  <span className="text-slate-400">Team Name:</span>
+                  <strong className="text-white font-bold">Team Career Catalyst</strong>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-slate-400">Founders & Architects:</span>
+                  <span className="text-cyan-300 font-semibold">Aarav Goyal & Shrey Bajaj</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-slate-400">Initiative:</span>
+                  <Badge variant="cyan" className="text-[10px]">Hackathon 2024</Badge>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* System Environment Status */}
           <Card className="border-slate-800 bg-slate-900/60">
             <CardHeader className="pb-3">

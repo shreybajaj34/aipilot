@@ -71,6 +71,11 @@ export function TopNav() {
 
       {/* Right: Quick actions, notifications, user avatar */}
       <div className="flex items-center gap-3">
+        <div className="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-violet-950/40 border border-violet-500/30 text-xs text-violet-300">
+          <span className="font-semibold text-white">Team Career Catalyst</span>
+          <span className="text-slate-400">• Aarav Goyal & Shrey Bajaj</span>
+        </div>
+
         <div className="hidden lg:flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900/80 border border-slate-800 text-xs text-slate-300">
           <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
           <span>Gemini Intelligence Online</span>

@@ -40,6 +40,9 @@ export default function LandingPage() {
                   AI SaaS
                 </span>
               </span>
+              <span className="text-[10px] text-violet-400 font-medium">
+                By Team Career Catalyst
+              </span>
             </div>
           </Link>
 
@@ -55,6 +58,9 @@ export default function LandingPage() {
             </a>
             <a href="#testimonials" className="hover:text-violet-400 transition-colors">
               Testimonials
+            </a>
+            <a href="#team" className="hover:text-violet-400 transition-colors">
+              Our Team
             </a>
           </div>
 
@@ -78,9 +84,15 @@ export default function LandingPage() {
       <section className="relative pt-24 pb-20 overflow-hidden text-center px-4">
         <div className="max-w-5xl mx-auto">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-violet-950/60 border border-violet-500/30 text-violet-300 text-xs font-medium mb-8 animate-fade-in">
-            <Sparkles className="h-4 w-4 text-violet-400" />
-            <span>Next-Gen Career Intelligence Platform for Students & Job Seekers</span>
+          <div className="flex flex-wrap items-center justify-center gap-2 mb-8 animate-fade-in">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-violet-950/60 border border-violet-500/30 text-violet-300 text-xs font-medium">
+              <Sparkles className="h-4 w-4 text-violet-400" />
+              <span>Next-Gen Career Intelligence Platform</span>
+            </div>
+            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 text-xs font-medium">
+              <Users className="h-3.5 w-3.5 text-cyan-400" />
+              <span>Team Career Catalyst • Aarav Goyal & Shrey Bajaj</span>
+            </div>
           </div>
 
           {/* Headline */}
@@ -451,18 +463,86 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* 6.5 MEET THE CREATORS — TEAM CAREER CATALYST */}
+      <section id="team" className="py-24 border-t border-slate-800/80 bg-slate-950/60">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <Badge variant="cyan" className="mb-4">PROJECT CREATORS</Badge>
+          <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-3">
+            Built by Team Career Catalyst
+          </h2>
+          <p className="text-slate-400 max-w-2xl mx-auto text-base mb-12">
+            AI CareerPilot was architected and developed by <strong className="text-white">Aarav Goyal</strong> and <strong className="text-white">Shrey Bajaj</strong> as an official hackathon engineering initiative to revolutionize job readiness for students.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
+            {/* Aarav Goyal */}
+            <Card className="border-violet-500/40 bg-gradient-to-br from-violet-950/30 to-slate-900/80 shadow-xl">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="h-14 w-14 rounded-2xl bg-gradient-to-tr from-violet-600 to-indigo-600 text-white flex items-center justify-center font-black text-xl shadow-lg shadow-violet-500/25">
+                    AG
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white">Aarav Goyal</h4>
+                    <p className="text-xs text-violet-300 font-semibold">Lead Full-Stack Architect & AI Systems</p>
+                    <span className="text-[11px] text-slate-400">Team Career Catalyst</span>
+                  </div>
+                </div>
+                <p className="text-sm text-slate-300 leading-relaxed mb-4">
+                  Architected the Next.js App Router core, server-side Gemini AI service wrappers, structured Zod schemas, and responsive UI components.
+                </p>
+                <div className="flex flex-wrap gap-1.5">
+                  <Badge variant="secondary" className="text-[10px]">Next.js 14</Badge>
+                  <Badge variant="secondary" className="text-[10px]">Gemini 1.5</Badge>
+                  <Badge variant="secondary" className="text-[10px]">TypeScript</Badge>
+                  <Badge variant="secondary" className="text-[10px]">System Design</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Shrey Bajaj */}
+            <Card className="border-cyan-500/40 bg-gradient-to-br from-cyan-950/30 to-slate-900/80 shadow-xl">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="h-14 w-14 rounded-2xl bg-gradient-to-tr from-cyan-600 to-blue-600 text-white flex items-center justify-center font-black text-xl shadow-lg shadow-cyan-500/25">
+                    SB
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white">Shrey Bajaj</h4>
+                    <p className="text-xs text-cyan-300 font-semibold">Product Architect & Cloud/Data Engineering</p>
+                    <span className="text-[11px] text-slate-400">Team Career Catalyst</span>
+                  </div>
+                </div>
+                <p className="text-sm text-slate-300 leading-relaxed mb-4">
+                  Engineered the Supabase PostgreSQL database models, Row Level Security policies, Recharts analytics telemetry, and ATS heuristic algorithms.
+                </p>
+                <div className="flex flex-wrap gap-1.5">
+                  <Badge variant="secondary" className="text-[10px]">Supabase & RLS</Badge>
+                  <Badge variant="secondary" className="text-[10px]">PostgreSQL</Badge>
+                  <Badge variant="secondary" className="text-[10px]">Recharts</Badge>
+                  <Badge variant="secondary" className="text-[10px]">Product UX</Badge>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* 7. FOOTER */}
       <footer className="border-t border-slate-800 bg-slate-950 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-tr from-violet-600 to-cyan-500">
+            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-violet-600 to-cyan-500 shadow-md">
               <BrainCircuit className="h-5 w-5 text-white" />
             </div>
-            <span className="font-bold text-white text-sm">AI CareerPilot</span>
+            <div>
+              <span className="font-bold text-white text-base">AI CareerPilot</span>
+              <p className="text-[11px] text-violet-400 font-medium">By Team Career Catalyst</p>
+            </div>
           </div>
 
-          <p className="text-xs text-slate-500 text-center sm:text-left">
-            © 2024 AI CareerPilot. Powered by Google Gemini and Supabase. Built for Hackathon Excellence.
+          <p className="text-xs text-slate-400 text-center md:text-left">
+            Crafted with ❤️ for the Hackathon by <span className="text-white font-semibold">Team Career Catalyst</span> (<span className="text-violet-300">Aarav Goyal</span> & <span className="text-cyan-300">Shrey Bajaj</span>).
           </p>
 
           <div className="flex items-center gap-6 text-xs text-slate-400">

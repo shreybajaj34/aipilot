@@ -1,9 +1,13 @@
 # AI CareerPilot — Hackathon Winning Pitch & Presentation Pack
+> **Team Career Catalyst:** Aarav Goyal & Shrey Bajaj  
+> **Tagline:** *Navigate Your Career. Powered by AI.*
 
 ---
 
 ## 1. 2-Minute Elevator Pitch
-"Every year, over 10 million college graduates and career-switchers enter the job market. Most of them have taken computer science courses, yet over 70% fail early screening rounds. Why? Because universities teach abstract theory, while industry hiring bars demand specific modern stacks: TypeScript, Next.js, Docker, PostgreSQL Row Level Security, and quantifiable STAR-format achievements.
+"Hello judges, we are **Aarav Goyal** and **Shrey Bajaj** from **Team Career Catalyst**.
+
+Every year, over 10 million college graduates and career-switchers enter the job market. Most of them have taken computer science courses, yet over 70% fail early screening rounds. Why? Because universities teach abstract theory, while industry hiring bars demand specific modern stacks: TypeScript, Next.js, Docker, PostgreSQL Row Level Security, and quantifiable STAR-format achievements.
 
 Job seekers find themselves trapped in 'tutorial hell' building repetitive to-do apps, getting rejected by ATS parsers, and freezing up during technical interviews.
 
@@ -17,8 +21,10 @@ With AI CareerPilot, career readiness is no longer a mystery — it is an action
 
 ## 2. 5-Minute Presentation Script
 
-### [0:00 - 1:00] The Problem
-"Good afternoon, judges! Let me ask you: How many times have you looked at a student's resume that says: *'Built a website using React'*?
+### [0:00 - 1:00] The Problem & Introduction
+"Good afternoon, judges! We are **Aarav Goyal** and **Shrey Bajaj** from **Team Career Catalyst**, and we built **AI CareerPilot**.
+
+Let me ask you: How many times have you looked at a student's resume that says: *'Built a website using React'*?
 No metrics. No architecture details. No quantified business impact. 
 When that resume hits an applicant tracking system or an engineering screener, it gets filtered out in 6 seconds.
 
